@@ -1,0 +1,79 @@
+// CSS reset or normalize file
+$none:none;
+$unset:unset;
+$zero:0;
+
+a {
+	text-decoration: $none;
+}
+
+p {
+	padding: $zero;
+	margin: $zero;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: $none;
+	margin: $zero;
+}
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+h3 {
+	margin: $unset;
+	padding: $unset;
+}
+
+a {
+	text-decoration: $none;
+	outline: $none;
+}
+
+a,
+button::-moz-focus-inner {
+	border: $zero;
+}
+
+ul {
+	margin: $zero !important;
+	padding: $zero !important;
+
+}
+
+ul li {
+	list-style: $none;
+}
+
+a:hover {
+	text-decoration: $none;
+}
+
+button:focus {
+	outline: $none;
+}
+
+input:-internal-autofill-selected {
+	background-color: $unset;
+}
+
+button:disabled {
+	cursor: not-allowed !important;
+}
+
+input {
+	outline: $none;
+	border: $unset;
+}
+
+.btn:focus {
+	box-shadow: $none;
+}
+
+.dropdown-item:active {
+	background-color: transparent;
+}

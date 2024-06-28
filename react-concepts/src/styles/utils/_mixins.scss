@@ -1,0 +1,22 @@
+@mixin border-radius($radius) {
+    border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    -o-border-radius: $radius;
+  }
+  
+  @mixin box-shadow($shadow) {
+    box-shadow: $shadow;
+  }
+
+  @mixin font($weight:normal, $size, $color) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+
+//     @if $weight != null {  // conditional based apply 
+//     font-weight: $weight;
+//    }
+  
+  }

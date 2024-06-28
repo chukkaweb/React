@@ -1,0 +1,95 @@
+// Base styles and global 
+$flex:flex;
+$center:center;
+$zero:0;
+$left:left;
+$hWidth:100%;
+
+body {
+	padding: $zero;
+	margin: $zero;
+	font-family: Lato, sans-serif !important;
+	background-color: #f4f2f0 !important;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: Lato, sans-serif;
+}
+
+.lp-2 {
+	letter-spacing: .2px;
+}
+
+.wh {
+	float: $left;
+	width: $hWidth;
+}
+
+.vh {
+	height: 100vh;
+}
+
+.h100 {
+	height: $hWidth;
+}
+
+.psr {
+	position: relative;
+}
+
+.psa {
+	position: absolute;
+}
+
+.mb-0 {
+	margin-bottom: $zero;
+}
+
+.mr-0 {
+	margin-right: $zero;
+}
+
+.fl {
+	float: $left;
+}
+
+.fr {
+	float: right;
+}
+
+.wd {
+	width: $hWidth;
+}
+
+.ptr {
+	cursor: pointer;
+}
+
+.blck {
+	color: #000;
+}
+
+.h_align {
+	display: $flex;
+	justify-content: $center;
+	margin: auto;
+}
+
+.v_align {
+	display: $flex;
+	align-items: $center;
+}
+.mrpd {
+	padding-top: 22px;
+ }
+ .mb-22 {
+	margin-bottom: 22px;
+ }
+
+ .custom-ellipsis {
+	overflow:hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+ }
+ 
