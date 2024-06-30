@@ -4,7 +4,6 @@ import * as am4charts from "@amcharts/amcharts4/charts";
 import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 import _ from 'underscore';
 
-import { getEntityObj } from "./entityObjConstruct";
 
 export const renderLineGraph = (id:string, widget:string, metric:string) => {
 
